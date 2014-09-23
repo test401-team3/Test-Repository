@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/board/list.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/board/read.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/board/updateForm.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/board/writeForm.jsp=UTF-8
+encoding//WebContent/js/board.js=UTF-8

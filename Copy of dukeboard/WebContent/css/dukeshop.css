@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+* { font-family: 굴림, gulim, tahoma, sans-serif; font-size: 12px; }
+a:link { text-decoration: none; color: #000000; }
+a:visited { text-decoration: none; color: #000000; }
+a:hover, a:active { text-decoration: underline; color: #cc6600; }
+
+.tableContainer { display:table; border-spacing: 5px; width: 800px; }
+.tableRow { display: table-row; }
+.tableCell { display: table-cell; vertical-align: top; }
+.sidebar { display: table-cell; width: 160px; height: 400px; padding: 20px 10px 0px 10px; vertical-align: top; background-color: #ccccff; }
+.main { display: table-cell; padding: 0px 20px 20px 20px; vertical-align: top; }
+
+h1 { font-size: 25px; }
+li { color: red; }
+h4 { text-align: center; font-size: 14px; color: blue; }
+td.label { text-align: right; }
+
+ul#loginerrormsg { padding: 0px 10px 0px 20px; }
+table#logintable, table#logouttable { width: 160px; }
+table#logintable td.label { text-align: center; color: red; font-weight: bold; }
+
+table#logouttable td { text-align: center; padding: 5px 0px 5px 0px; }
+table#logouttable td.message { color: red; font-family: Helvetica, sans-serif; }
+
+table.registertable td { padding: 5px; }
+
+table#productlist { border: 1px solid black; border-spacing: 0px; }
+table#productlist th, table#productlist td { border: 1px solid black; }   
+
+h4#error { width: 400px; height: 25px; background-color: orange; color: black; }
+
+table#sidebartable { margin: 20px 10px 10px 10px; }
+table#sidebartable hr { margin: 0px 0px 5px 0px; width: 120px; }
+td#menulabel { color: red; font-weight: bold; }
+
+table#allproductlist { width: 600px; text-align: center; }
+table#allproductlist th { background-color: #9999FF; color: #FFFFFF; white-space: nowrap; }
+table#allproductlist td.productno { width: 5%; }
+table#allproductlist td.productname { width: 35%; padding-left: 10px; text-align: left; }
+table#allproductlist td.productprice { width: 10%; }
+table#allproductlist td.productimage { width: 10%; }
+table#allproductlist td.productcompany { width: 10%; }
+table#allproductlist img { width: 30px; height: 30px; }
+
+table#productdetails { width: 450px; text-align: center; }
+table#productdetails img { width: 150px; height: 150px; }
+table#productdetails td#producttitle { font-size: 13px; font-weight: bold; }
+table#productdetails td#price1 { text-decoration: line-through; }
+table#productdetails td#price2 { color: blue; font-weight: bold; }
+table#productdetails td#details { padding-left: 30px; text-align: left; }
+table#productdetails textarea { width: 400px; }
+table#productdetails td#purchase { text-align: center; }
+
+p#contentsubject { font-size: 15px; font-weight: bold; padding-top: 10px; }
+
+p.exceptionname { margin-bottom: 40px; text-align: center; background-color: pink; font-size: 15px; font-weight: bold; }
+p.notfound { margin-top: 40px; text-align: center; font-size: 13px; font-weight: bold; }
+
+
+.logo { text-align: center; vertical-align: middle; width: 160px; height: 100px; }
+.banner { background-color: #ccccff; text-align: center; width: 600px; height: 100px; }
+.banner p { font-size: 20px; font-family: Helvetica, sans-serif; }
+
+hr#copyrightline { margin: 5px; color: blue; }
+p#copyright { margin-top: 0px; margin-left: 5px; font-family: Helvetica, sans-serif; }
+
+table#baskettable { text-align: center; }
+table#baskettable .productname { width: 220px; padding-bottom: 5px; }
+table#baskettable .count { width: 100px; padding-bottom: 5px;}
+table#baskettable .price { width: 120px; padding-bottom: 5px; }
+table#baskettable .delete { width: 60px; padding-bottom: 5px; }
+table#baskettable .sum { font-weight: bold; color: blue; padding-bottom: 5px; }
+
+p#reciptlabel { font-weight: bold; }
+table#receiptinfo { margin-left: 25px; }
+table#receiptinfo td { padding-top: 5px; }
+table#receiptinfo td#buttons { text-align: center; }
+
+table#orderinfo, table#shippinginfo { width: 600px; text-align: center; }
+table#orderinfo th, table#shippinginfo th { background-color: #9999FF; color: #FFFFFF; white-space: nowrap; }
+
+table#orderinfo td.orderno { width: 10%; }
+table#orderinfo td.productname { width: 40%; }
+table#orderinfo td.ordercount { width: 10%; }
+table#orderinfo td.orderprice { width: 20%; }
+table#orderinfo td.orderpricesum { width: 20%; }
+
+table#shippinginfo td.recipient { width: 15%; }
+table#shippinginfo td.receiptaddr { width: 40%; }
+table#shippinginfo td.receiptemail { width: 20%; }
+table#shippinginfo td.receiptphone { width: 15%; }
+table#shippinginfo td.receipttype { width: 10%; }
+form#ordercomplete { text-align: center; }
