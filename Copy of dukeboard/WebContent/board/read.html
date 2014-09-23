@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>게시글 보기</title>
+	<link rel="stylesheet" href="../css/board.css">
+	<script src="../js/board.js"></script>
+</head>
+<body>
+	<div class="boardpage">
+		<table id="readtable" class="maintable">
+			<caption>게시글 보기</caption>
+			<thead>
+				<tr>
+					<th>제 목</th>
+					<td class="title" colspan="5">안녕하세요. 게시판 지기입니다.</td>
+				</tr>
+				<tr>
+					<th>글쓴이</th>
+					<td class="writer">운영자</td>
+					<th>조회</th>
+					<td class="readcount">10</td>
+					<th>작성일</th>
+					<td class="regdate">2014.07.01</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="contents" colspan="6">게시글 내용입니다.</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="buttonbar">
+			<input type="button" value="목록" onclick="goUrl('list.html');">
+			<input type="button" value="수정" onclick="goUrl('updateForm.html');">
+			<input type="button" value="삭제" onclick="deleteCheck('boardProcess.jsp');">
+		</div>
+	</div>
+</body>
+</html>
