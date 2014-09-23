@@ -30,6 +30,7 @@ public class Board {
 		this.readCount = readCount;
 		this.regDate = regDate;
 		this.modDate = modDate;
+		// 주석추가
 	}
 
 	// 리스트 조회용
